@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Resilient Architecture (ResArch) Lab logo">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a6470"/>
+      <stop offset="1" stop-color="#14292f"/>
+    </linearGradient>
+  </defs>
+  <!-- board traces and vias -->
+  <g stroke="#d6ac4a" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.8"><path d="M64 35 V25"/><circle fill="#d6ac4a" stroke="none" cx="64" cy="25" r="2.6"/><path d="M64 165 V175"/><circle fill="#d6ac4a" stroke="none" cx="64" cy="175" r="2.6"/><path d="M35 64 H25"/><circle fill="#d6ac4a" stroke="none" cx="25" cy="64" r="2.6"/><path d="M165 64 H175"/><circle fill="#d6ac4a" stroke="none" cx="175" cy="64" r="2.6"/><path d="M82 35 V18"/><circle fill="#d6ac4a" stroke="none" cx="82" cy="18" r="2.6"/><path d="M82 165 V182"/><circle fill="#d6ac4a" stroke="none" cx="82" cy="182" r="2.6"/><path d="M35 82 H18"/><circle fill="#d6ac4a" stroke="none" cx="18" cy="82" r="2.6"/><path d="M165 82 H182"/><circle fill="#d6ac4a" stroke="none" cx="182" cy="82" r="2.6"/><path d="M100 35 V25"/><circle fill="#d6ac4a" stroke="none" cx="100" cy="25" r="2.6"/><path d="M100 165 V175"/><circle fill="#d6ac4a" stroke="none" cx="100" cy="175" r="2.6"/><path d="M35 100 H25"/><circle fill="#d6ac4a" stroke="none" cx="25" cy="100" r="2.6"/><path d="M165 100 H175"/><circle fill="#d6ac4a" stroke="none" cx="175" cy="100" r="2.6"/><path d="M118 35 V18"/><circle fill="#d6ac4a" stroke="none" cx="118" cy="18" r="2.6"/><path d="M118 165 V182"/><circle fill="#d6ac4a" stroke="none" cx="118" cy="182" r="2.6"/><path d="M35 118 H18"/><circle fill="#d6ac4a" stroke="none" cx="18" cy="118" r="2.6"/><path d="M165 118 H182"/><circle fill="#d6ac4a" stroke="none" cx="182" cy="118" r="2.6"/><path d="M136 35 V25"/><circle fill="#d6ac4a" stroke="none" cx="136" cy="25" r="2.6"/><path d="M136 165 V175"/><circle fill="#d6ac4a" stroke="none" cx="136" cy="175" r="2.6"/><path d="M35 136 H25"/><circle fill="#d6ac4a" stroke="none" cx="25" cy="136" r="2.6"/><path d="M165 136 H175"/><circle fill="#d6ac4a" stroke="none" cx="175" cy="136" r="2.6"/></g>
+  <!-- package pins -->
+  <g fill="#d6ac4a"><rect x="61" y="35" width="6" height="18" rx="1.5"/><rect x="61" y="147" width="6" height="18" rx="1.5"/><rect x="35" y="61" width="18" height="6" rx="1.5"/><rect x="147" y="61" width="18" height="6" rx="1.5"/><rect x="79" y="35" width="6" height="18" rx="1.5"/><rect x="79" y="147" width="6" height="18" rx="1.5"/><rect x="35" y="79" width="18" height="6" rx="1.5"/><rect x="147" y="79" width="18" height="6" rx="1.5"/><rect x="97" y="35" width="6" height="18" rx="1.5"/><rect x="97" y="147" width="6" height="18" rx="1.5"/><rect x="35" y="97" width="18" height="6" rx="1.5"/><rect x="147" y="97" width="18" height="6" rx="1.5"/><rect x="115" y="35" width="6" height="18" rx="1.5"/><rect x="115" y="147" width="6" height="18" rx="1.5"/><rect x="35" y="115" width="18" height="6" rx="1.5"/><rect x="147" y="115" width="18" height="6" rx="1.5"/><rect x="133" y="35" width="6" height="18" rx="1.5"/><rect x="133" y="147" width="6" height="18" rx="1.5"/><rect x="35" y="133" width="18" height="6" rx="1.5"/><rect x="147" y="133" width="18" height="6" rx="1.5"/></g>
+  <!-- chip package and die frame -->
+  <rect x="50" y="50" width="100" height="100" rx="10" fill="url(#body)" stroke="#5d8792" stroke-width="2.5"/>
+  <rect x="58" y="58" width="84" height="84" rx="5" fill="none" stroke="#d6ac4a" stroke-opacity="0.55" stroke-width="1.3"/>
+  <circle cx="64" cy="64" r="2.5" fill="#d6ac4a"/>
+  <!-- chip marking -->
+  <text x="100" y="69" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#d6ac4a">RESARCH</text>
+  <!-- arch etched on the die -->
+  <path d="M72 134 V106 A28 28 0 0 1 128 106 V134" fill="none" stroke="#d6ac4a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M88 134 V108 A12 12 0 0 1 112 108 V134" fill="none" stroke="#f1dc9c" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M66 134 H134" stroke="#d6ac4a" stroke-width="6" stroke-linecap="round"/>
+  <!-- bus lines from the pillars to the pins -->
+  <path d="M72 118 H50" stroke="#f1dc9c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M128 118 H150" stroke="#f1dc9c" stroke-width="3" stroke-linecap="round"/>
+  <!-- keystone -->
+  <circle cx="100" cy="78" r="4.5" fill="#f1dc9c" stroke="#14292f" stroke-width="2"/>
+</svg>
